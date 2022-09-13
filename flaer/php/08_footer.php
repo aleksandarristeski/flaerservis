@@ -1,4 +1,5 @@
     <footer>
+    <?php  // footer ?>
       <p>©2022 www.flaerservis.mk</p>
       <a href="https://flaerservis.mk/flaer/inc/inc.term.php">УСЛОВИ ЗА КОРИСТЕЊЕ</a>
       <a href="https://flaerservis.mk/flaer/inc/inc.rules.php">ПРАВИЛА НА ФУНКЦИОНИРАЊЕ</a>

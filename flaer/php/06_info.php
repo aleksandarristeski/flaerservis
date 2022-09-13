@@ -1,4 +1,5 @@
     <div id="info">
+    <?php  // info ?>
       <p id="info_link" class="sky">ЗОШТО ФЛАЕРИ?</p>
       <h2>КОИ СЕ ПРИДОБИВКИТЕ ОД РЕКЛАМИРАЊЕ СО ЛЕТОЦИ</h2>
       <div class="flex">

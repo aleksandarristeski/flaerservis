@@ -1,4 +1,5 @@
     <div id="banner1">
+    <?php  // banner1 ?>
       <p class="sky">РЕКЛАМИРАЈТЕ ГО ВАШИОТ БИЗНИС ДЕНЕС</p>
       <h1>ДОБИЈТЕ ПОВЕЌЕ КЛИЕНТИ !</h1>
       <div class="button">

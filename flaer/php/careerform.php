@@ -1,4 +1,5 @@
     <div id="career">
+    <?php  // carrer ?>
       <div id="banner">
         <p><span class="white">БАРАШ МИНИ РАБОТА ?</span></p>
         <h1><span>ПРИДРУЖИ СЕ НА НАШИОТ ТИМ</span></h1>
