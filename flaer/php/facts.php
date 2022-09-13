@@ -1,4 +1,5 @@
 <div id="facts">
+<?php  // facts ?>
 
       <h2>Факти</h2>
       <div>

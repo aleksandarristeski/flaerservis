@@ -1,4 +1,5 @@
     <div id="servis">
+    <?php  // servis ?>
       <p id="servis_link" class="sky">УСЛУГИ</p>
       <h2>СО НАС, ВАШИОТ РЕКЛАМЕН МАТЕРИЈАЛ СО СИГУРНОСТ ЌЕ ДОПРЕ ДО ВАШИТЕ КЛИЕНТИ</h2>
       <div class="clearfix">

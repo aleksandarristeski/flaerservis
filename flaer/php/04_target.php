@@ -1,4 +1,5 @@
     <div id="target">
+    <?php  // target ?>
       <p id="target_link" class="sky">ЗОШТО ФЛАЕР СЕРВИС</p>
       <h2>ТАРГЕТИРАН ДИРЕКТЕН МАРКЕТИНГ</h2>
       <div class="flex">

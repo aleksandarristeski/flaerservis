@@ -1,3 +1,4 @@
+?>
 <div id="wrapp">
   <div id="ser_footer">
 
@@ -89,3 +90,4 @@
     </div><!--ende tabs-->  
   </div>
 </div>
+<?php

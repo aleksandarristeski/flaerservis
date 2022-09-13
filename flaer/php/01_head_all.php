@@ -19,5 +19,8 @@
         <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
         <script src="https://flaerservis.mk/flaer/js/index.js"></script>
         <title>Флаер Сервис</title>
+        <?php
+        // This is a single-line comment
+        ?>
     </head>
 <body>

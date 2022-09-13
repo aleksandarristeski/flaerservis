@@ -1,4 +1,5 @@
   <div id="wrapper">
+  <?php  // Wrapper ?>
     <header>
       <div class="logo">
         <a href="https://flaerservis.mk/"><img src="https://flaerservis.mk/flaer/img/logo.png" alt="лого"></a>
