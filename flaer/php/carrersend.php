@@ -8,7 +8,7 @@ use FormGuide\Handlx\FormHandler;
 
 
 $pp = new FormHandler(); 
-$pp->sendEmailTo('aleksandar.risteski87@gmail.com'); // ← Your email here
+$pp->sendEmailTo(''); // ← Your email here
 echo $pp->process($_POST);
 
 
