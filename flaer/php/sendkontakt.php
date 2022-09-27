@@ -29,10 +29,10 @@ $mail = new PHPMailer();
     
     
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'mail.flaerservis.mk';                     //Set the SMTP server to send through
+    $mail->Host       = '';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'info@flaerservis.mk';                     //SMTP username
-    $mail->Password   = 'makedonija01!';                               //SMTP password
+    $mail->Username   = '';                     //SMTP username
+    $mail->Password   = '';                               //SMTP password
     
     
      $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
@@ -40,8 +40,8 @@ $mail = new PHPMailer();
 
     //Recipients
     $mail->setFrom('info@flaerservis.mk', 'FlaerInfoPonuda');
-    $mail->addAddress('aleksandar.risteski87@gmail.com');     //Add a recipient
-    $mail->addAddress('dimitrovskinaum@gmail.com');             
+    $mail->addAddress('');     //Add a recipient
+    $mail->addAddress('');             
     $mail->addReplyTo( $email, 'addReplyToInformation');
    // $mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');
