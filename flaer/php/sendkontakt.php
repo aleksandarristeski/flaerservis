@@ -1,15 +1,6 @@
 <?php
 
-$kompany = $_POST['kompany'];
-$name = $_POST['name'];
-$email = $_POST['email'];
-$telefon = $_POST['telefon'];
-$usluga = $_POST['usluga'];
-$datum = $_POST['datum'];
-$kolicina = $_POST['kolicina'];
-$lokacija = $_POST['lokacija'];
-$oblast = $_POST['oblast'];
-$poraka = $_POST['poraka'];
+
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
@@ -30,7 +21,7 @@ $mail = new PHPMailer();
     
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = '';                     //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->SMTPAuth   = ;                                   //Enable SMTP authentication
     $mail->Username   = '';                     //SMTP username
     $mail->Password   = '';                               //SMTP password
     
@@ -39,7 +30,7 @@ $mail = new PHPMailer();
      $mail->Port       = ;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('info@flaerservis.mk', 'FlaerInfoPonuda');
+    $mail->setFrom('', 'FlaerInfoPonuda');
     $mail->addAddress('');     //Add a recipient
     $mail->addAddress('');             
     $mail->addReplyTo( $email, 'addReplyToInformation');
@@ -51,16 +42,7 @@ $mail = new PHPMailer();
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Baranje na ponuda';
-    $mail->Body    =  'Ime na Firma: ' . $kompany .
-                      '<br>Ime i prezime: ' . $name .  
-                      '<br>Email: ' . $email . 
-                      '<br>Telefon: ' . $telefon . 
-                      '<br>Uslugi: ' . $usluga .
-                      '<br>Poceten datum: ' . $datum .
-                      '<br>Kolicina: ' . $kolicina .
-                      '<br>Lokacija: ' . $lokacija .
-                      '<br>Oblast: ' . $oblast . 
-                      '<br>Poraka: ' .  $poraka ;
+    $mail->Body    =  '' ;
 
     //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
