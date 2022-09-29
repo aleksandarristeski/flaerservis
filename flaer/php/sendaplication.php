@@ -33,7 +33,7 @@ $mail = new PHPMailer();
      $mail->Port       = ;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('info@flaerservis.mk', 'FlaerInfoAplikacija');
+    $mail->setFrom('', 'FlaerInfoAplikacija');
     $mail->addAddress('');     //Add a recipient
     $mail->addAddress('');             
     $mail->addReplyTo( $email, 'addReplyToInformation');
